@@ -8,9 +8,9 @@ end;
 /
 
 
--------------------------------
+--------------------------------
 package body 
----------------------------------
+----------------------------------
 create or replace package body p_pack is 
     function f_stud(id number) return varchar2 is
         s_name student.name%type;
